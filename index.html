@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Selye Universe – Digital Apps by a Solo Coding Maestro</title>
+  <meta name="description" content="Discover apps by Selye Universe – your solo coding maestro. Try Digital Chess Clock and other useful tools designed for everyday productivity." />
+  <meta name="keywords" content="Selye Universe, Digital Chess Clock, mobile apps, Play Store, solo developer, privacy policy" />
+  <meta name="author" content="Selye Universe" />
+  <link rel="icon" href="./header-logo.jpg" />
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: system-ui, sans-serif;
+      background: #e5e7eb;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(135deg, #7b2ff7, #f107a3);
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    header img {
+      width: 100px;
+      height: 100 px;
+      vertical-align: middle;
+      margin-right: 10px;
+      border-radius: 50px;
+    }
+
+    header h1 {
+      display: inline-block;
+      margin: 0;
+      font-size: 2.5rem;
+      font-weight: 700;
+      vertical-align: middle;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.1rem;
+      color: #f3f3f3;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    .scroll-container {
+      display: flex;
+      overflow-x: auto;
+      gap: 16px;
+      padding-bottom: 20px;
+    }
+
+    .app-card {
+      flex: 0 0 auto;
+      background: white;
+      border-radius: 10px;
+      width: 250px;
+      padding: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+      transition: transform 0.2s ease;
+      text-align: center;
+    }
+
+    .app-card:hover {
+      transform: translateY(-4px);
+    }
+
+    .app-icon {
+      width: 150px;
+      height: auto;
+      border-radius: 15px;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+
+    .app-card h3 {
+      font-size: 1.1rem;
+      margin: 8px 0 4px;
+    }
+
+    .app-card p {
+      font-size: 0.9rem;
+      color: #555;
+      font-weight: 500;
+      margin-bottom: 12px;
+    }
+
+    .app-card a {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      margin: 4px 0;
+      text-decoration: none;
+      color: white;
+      background: #000;
+      padding: 6px 12px;
+      font-size: 0.85rem;
+      border-radius: 6px;
+      transition: background 0.3s ease;
+    }
+
+    .app-card a:hover {
+      background: #222;
+    }
+
+    .app-card img.play-icon {
+      width: 20px;
+      height: 20px;
+    }
+
+    footer {
+      background: #1a1a1a;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #ccc;
+      padding: 30px 10px;
+    }
+
+    .footer-links {
+      margin-top: 10px;
+    }
+
+    .footer-links a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #66c0f4;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .footer-links img {
+      width: 18px;
+      height: 18px;
+    }
+
+    @media (max-width: 768px) {
+      .scroll-container {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .app-card {
+        width: 90%;
+        max-width: 300px;
+      }
+
+      header h1 {
+        font-size: 2rem;
+      }
+
+      header p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="./header-logo.jpg" alt="Selye Universe Logo" />
+  <h1>Selye Universe</h1>
+  <p>Introducing Selye, your solo coding maestro.</p>
+  <p>Elevate your digital experience with expert solutions tailored to daily needs.</p>
+</header>
+
+<main>
+  <h2 style="text-align: center;">My Collections</h2>
+  <section class="scroll-container" aria-label="Featured Apps">
+    <article class="app-card">
+      <img src="./chessclock.png" class="app-icon" alt="Digital Chess Clock App Icon" />
+      <h3>Digital Chess Clock</h3>
+      <p>Fair play using chess clock for offline matches.</p>
+      <a href="https://play.google.com/store/apps/details?id=com.digitalchessclock" target="_blank" rel="noopener noreferrer">
+        <img src="https://img.icons8.com/color/48/google-play.png" class="play-icon" alt="Google Play Icon" />
+        <span><strong>Play Store</strong></span>
+      </a>
+      <a href="privacy-policy.html" target="_blank" rel="noopener noreferrer">
+        <img src="https://img.icons8.com/color/48/privacy-policy.png" class="play-icon" alt="Privacy Policy Icon" />
+        <span><strong>Privacy Policy</strong></span>
+      </a>
+    </article>
+  </section>
+</main>
+
+<footer>
+  &copy; 2025 Selye Universe — All rights reserved.
+  <div class="footer-links">
+    <a href="mailto:firman.developers@gmail.com">
+      <img src="https://img.icons8.com/ios-filled/50/ffffff/speech-bubble.png" alt="Contact Icon" />
+      <span>Message Us</span>
+    </a>
+  </div>
+</footer>
+
+</body>
+</html>
